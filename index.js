@@ -11,7 +11,7 @@ db();
 const app = express();
 
 const corsOptions = {
-    origin: "*",
+    origin: "https://user-login-demo.vercel.app",
     credentials: true,
     preflightContinue: true,
     optionsSuccessStatus: 200,
